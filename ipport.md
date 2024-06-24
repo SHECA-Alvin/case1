@@ -29,22 +29,12 @@ i. 30 days or
 ii. if the Applicant submitted the certificate request, the time frame permitted for reuse of validated information relevant to the certificate (such as in Section 4.2.1 of this document).
 ```
 
-
-
-
-
-
-
 ```
 通过确认在IP地址的内容中存在在文件或网页的形式的“/.well-known/pki-validation”目录下的meta标签中的请求令牌或随机值，或者在用于验证IP地址控制的目的的另一个由IANA注册的路径，来确认申请人对请求的IP地址的控制权。该IP地址可通过HTTP/HTTPS在CA上通过授权端口访问。请求令牌或随机值不得出现在请求中。
 如果使用随机值，CA应提供一个对证书请求唯一的随机值，并且不得在以下时间之后使用随机值：
 i. 30天，
 ii. 如果申请人提交了证书请求，则在与证书相关的验证信息可重用的时间范围内（如本文档的第4.2.1节）。
 ```
-
-
-
-
 
 **根据BR中的定义 授权端口指的是** **80(http)、443(https)、25(smtp)、22(ssh)**
 
@@ -64,27 +54,19 @@ ii. 如果申请人提交了证书请求，则在与证书相关的验证信息�
 
 回复原文如下：
 
+```
 感谢Aaron Gable的关注。SHECA在看到您的评论后立刻检查了我们的CPS内容。SHECA最新的CPS地址为：https://assets-cdn.sheca.com/documents/sheca-certification-practice-statement-en-v3.6.3.pdf。
-
-
 
 1.SHECA未在CPS声明使用BR中的3.2.2.5.4对IP进行验证，因为该方法已于2019年7月31日被禁止。
 
 2.SHECA的CPS中第3.2.6章节描述了SHECA的IP验证方式，其中第二条的（1）和（2）对应BR中的3.2.2.5.1章节，（3）对应BR中的3.2.2.5.3章节。
 
-
-
 环度是SHECA的经销商（代理商），环度不具备任何签发、审核SSL证书的权限和职责，SHECA的SSL证书签发流程严格遵守BR的规定，所有关于SSL证书审核和验证规则对外披露均应在SHECA的CPS中进行，不存在任何其他披露渠道。本次环度未经SHECA同意擅自发布不符合实际的营销文章，我们已紧急联系环度处理。
 
-
-
 希望能解答您的疑惑！
-
-
+```
 
 ● **2023-06-24 09:00** 我们发现CPS的中英文版本不一致且描述不清晰，我回复的时候参考的中文，发现后立刻要求合规部门立刻排查BR并整改，并在重新回复对方。
-
-
 
 
 
